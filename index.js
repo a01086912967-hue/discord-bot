@@ -13,7 +13,7 @@ const client = new Client({
 client.once('ready', async () => {
   console.log('봇 켜짐');
 
-  const channel = await client.channels.fetch('1495010125700927668');
+  // const channel = await client.channels.fetch('1495010125700927668');
 
   const embed = new EmbedBuilder()
     .setTitle('문의하기')
