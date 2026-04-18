@@ -1,3 +1,4 @@
+console.log("TOKEN 있음?", process.env.TOKEN ? "YES" : "NO");
 const { Client, GatewayIntentBits } = require('discord.js');
 
 // 봇 생성
