@@ -92,3 +92,6 @@ https://www.roblox.com/share/g/716618686`;
 });
 
 client.login(process.env.TOKEN);
+require('http').createServer((req, res) => {
+  res.end('OK');
+}).listen(process.env.PORT);
