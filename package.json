@@ -6,3 +6,4 @@
     "discord.js": "^14.14.1"
   }
 }
+require('http').createServer((req, res) => res.end('OK')).listen(3000);
