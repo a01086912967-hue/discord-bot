@@ -1,4 +1,3 @@
-console.log("TOKEN:", process.env.TOKEN);
 const { 
   Client, 
   GatewayIntentBits, 
