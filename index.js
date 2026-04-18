@@ -3,7 +3,11 @@ const { Client, GatewayIntentBits } = require('discord.js');
 console.log("TOKEN 있음?", process.env.TOKEN ? "YES" : "NO");
 
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds]
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent
+  ]
 });
 
 client.once('ready', () => {
