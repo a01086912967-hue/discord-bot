@@ -94,8 +94,8 @@ https://www.roblox.com/share/g/716618686`;
 
 client.once('ready', () => {
   console.log('봇 켜짐');
+  console.log(client.user.tag);
 });
-
 client.login(process.env.TOKEN);
 
 require('http').createServer((req, res) => {
